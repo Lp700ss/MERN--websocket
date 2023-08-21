@@ -10,7 +10,7 @@ module.exports = {
       },
       {
         name: 'websocket', // WebSocket server
-        script: 'websocket-controller.js', // Change this to your WebSocket controller file
+        script: 'controllers/websocketController.js', // Change this to your WebSocket controller file
         instances: '1',
         exec_mode: 'fork',
         autorestart: true,
